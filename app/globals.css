@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root { */
+/*   --foreground: #171717; */
+/* } */
+
+body {
+  background: #0a0a0a;
+}
+
+@layer base {
+  h5 {
+    @apply text-sm font-medium text-neutral-50;
+  }
+}
+
+@layer components {
+  .title-1-regular {
+    @apply text-[14px] font-normal text-neutral-50;
+  }
+  .title-1-medium {
+    @apply text-[14px] font-medium text-neutral-50;
+  }
+}
